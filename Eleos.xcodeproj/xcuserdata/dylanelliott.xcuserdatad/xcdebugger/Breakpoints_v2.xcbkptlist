@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CDF34EB2-0E1C-4F91-A108-5B87651B64D3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C499F27-28BD-497C-9115-D8FD562C0401"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Eleos-eozzrmfnutbekvbmmqjmjuvwkynk/SourcePackages/checkouts/SlackKit/SKServer/Sources/Middleware/MessageActionMiddleware.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "respond(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C499F27-28BD-497C-9115-D8FD562C0401 - 215d2f442860fabd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SKServer.MessageActionMiddleware.respond(to: (SKServer.RequestType, SKServer.ResponseType)) -&gt; (SKServer.RequestType, SKServer.ResponseType)"
+                  moduleName = "Eleos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanelliott/Library/Developer/Xcode/DerivedData/Eleos-eozzrmfnutbekvbmmqjmjuvwkynk/SourcePackages/checkouts/SlackKit/SKServer/Sources/Middleware/MessageActionMiddleware.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "2C499F27-28BD-497C-9115-D8FD562C0401 - 54033de7f59e4204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((name: Swift.String, value: Swift.String)) -&gt; Swift.Bool in SKServer.MessageActionMiddleware.respond(to: (SKServer.RequestType, SKServer.ResponseType)) -&gt; (SKServer.RequestType, SKServer.ResponseType)"
+                  moduleName = "Eleos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dylanelliott/Library/Developer/Xcode/DerivedData/Eleos-eozzrmfnutbekvbmmqjmjuvwkynk/SourcePackages/checkouts/SlackKit/SKServer/Sources/Middleware/MessageActionMiddleware.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

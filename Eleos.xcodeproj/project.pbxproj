@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623472F326EC4B7A00A2C44F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623472F226EC4B7A00A2C44F /* main.swift */; };
+		6235A87026EC5216003FD3D5 /* SlackKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6235A86F26EC5216003FD3D5 /* SlackKit */; };
+		6235A87526EC5933003FD3D5 /* MessageChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A87426EC5933003FD3D5 /* MessageChecker.swift */; };
+		6235A87726EC800F003FD3D5 /* SlackBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A87626EC800F003FD3D5 /* SlackBot.swift */; };
+		6235A87926EC8026003FD3D5 /* Eleos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A87826EC8026003FD3D5 /* Eleos.swift */; };
+		6235A87B26EC80E4003FD3D5 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6235A87A26EC80E4003FD3D5 /* Secrets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		623472ED26EC4B7A00A2C44F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		623472EF26EC4B7A00A2C44F /* Eleos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Eleos; sourceTree = BUILT_PRODUCTS_DIR; };
+		623472F226EC4B7A00A2C44F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		623472FD26EC4E3F00A2C44F /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
+		6235A87126EC53D1003FD3D5 /* Eleos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eleos.entitlements; sourceTree = "<group>"; };
+		6235A87426EC5933003FD3D5 /* MessageChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageChecker.swift; sourceTree = "<group>"; };
+		6235A87626EC800F003FD3D5 /* SlackBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackBot.swift; sourceTree = "<group>"; };
+		6235A87826EC8026003FD3D5 /* Eleos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eleos.swift; sourceTree = "<group>"; };
+		6235A87A26EC80E4003FD3D5 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623472EC26EC4B7A00A2C44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6235A87026EC5216003FD3D5 /* SlackKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623472E626EC4B7A00A2C44F = {
+			isa = PBXGroup;
+			children = (
+				623472F126EC4B7A00A2C44F /* Eleos */,
+				623472F026EC4B7A00A2C44F /* Products */,
+				623472FC26EC4E3F00A2C44F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		623472F026EC4B7A00A2C44F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623472EF26EC4B7A00A2C44F /* Eleos */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623472F126EC4B7A00A2C44F /* Eleos */ = {
+			isa = PBXGroup;
+			children = (
+				6235A87626EC800F003FD3D5 /* SlackBot.swift */,
+				6235A87126EC53D1003FD3D5 /* Eleos.entitlements */,
+				623472F226EC4B7A00A2C44F /* main.swift */,
+				6235A87A26EC80E4003FD3D5 /* Secrets.swift */,
+				6235A87826EC8026003FD3D5 /* Eleos.swift */,
+				6235A87426EC5933003FD3D5 /* MessageChecker.swift */,
+			);
+			path = Eleos;
+			sourceTree = "<group>";
+		};
+		623472FC26EC4E3F00A2C44F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623472FD26EC4E3F00A2C44F /* libcommonCrypto.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623472EE26EC4B7A00A2C44F /* Eleos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623472F626EC4B7A00A2C44F /* Build configuration list for PBXNativeTarget "Eleos" */;
+			buildPhases = (
+				623472EB26EC4B7A00A2C44F /* Sources */,
+				623472EC26EC4B7A00A2C44F /* Frameworks */,
+				623472ED26EC4B7A00A2C44F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eleos;
+			packageProductDependencies = (
+				6235A86F26EC5216003FD3D5 /* SlackKit */,
+			);
+			productName = Eleos;
+			productReference = 623472EF26EC4B7A00A2C44F /* Eleos */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623472E726EC4B7A00A2C44F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					623472EE26EC4B7A00A2C44F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 623472EA26EC4B7A00A2C44F /* Build configuration list for PBXProject "Eleos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623472E626EC4B7A00A2C44F;
+			packageReferences = (
+				6235A86E26EC5216003FD3D5 /* XCRemoteSwiftPackageReference "SlackKit" */,
+			);
+			productRefGroup = 623472F026EC4B7A00A2C44F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623472EE26EC4B7A00A2C44F /* Eleos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623472EB26EC4B7A00A2C44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6235A87B26EC80E4003FD3D5 /* Secrets.swift in Sources */,
+				6235A87726EC800F003FD3D5 /* SlackBot.swift in Sources */,
+				6235A87926EC8026003FD3D5 /* Eleos.swift in Sources */,
+				6235A87526EC5933003FD3D5 /* MessageChecker.swift in Sources */,
+				623472F326EC4B7A00A2C44F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		623472F426EC4B7A00A2C44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		623472F526EC4B7A00A2C44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		623472F726EC4B7A00A2C44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = Eleos/Eleos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		623472F826EC4B7A00A2C44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_ENTITLEMENTS = Eleos/Eleos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CW3378X23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623472EA26EC4B7A00A2C44F /* Build configuration list for PBXProject "Eleos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623472F426EC4B7A00A2C44F /* Debug */,
+				623472F526EC4B7A00A2C44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623472F626EC4B7A00A2C44F /* Build configuration list for PBXNativeTarget "Eleos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623472F726EC4B7A00A2C44F /* Debug */,
+				623472F826EC4B7A00A2C44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6235A86E26EC5216003FD3D5 /* XCRemoteSwiftPackageReference "SlackKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvzig/SlackKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6235A86F26EC5216003FD3D5 /* SlackKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6235A86E26EC5216003FD3D5 /* XCRemoteSwiftPackageReference "SlackKit" */;
+			productName = SlackKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 623472E726EC4B7A00A2C44F /* Project object */;
+}
